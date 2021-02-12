@@ -1,0 +1,9 @@
+{
+	"key.categories.buddies": "Buddies",
+	"key.buddies.toggle_glow": "Toggle Glowing Effect",
+	"key.buddies.toggle_player": "Add/Remove Buddy",
+	"chat.buddies.toggle_glow": "Buddy Glow: ",
+	"chat.buddies.toggle_player.enable": " has been ADDED as a buddy!",
+	"chat.buddies.toggle_player.disable": " has been REMOVED as a buddy.",
+	"chat.buddies.toggle_player.error": "Look at your buddy before trying to add/remove them."
+}

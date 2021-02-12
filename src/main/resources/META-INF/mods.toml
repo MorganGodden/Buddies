@@ -1,0 +1,33 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+[[mods]] #mandatory
+modId="buddies" #mandatory
+version="1.0" #mandatory
+displayName="Buddies - By Morgan Godden" #mandatory
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="examplemod.png" #optional
+credits="Produced by Morgan Godden" #optional
+authors="Morgan Godden" #optional
+description='''
+'Buddies' is a system to keep track of your friends.
+
+Produced by: Morgan Godden
+'''
+
+
+[[dependencies.buddies]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.buddies]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="CLIENT"
